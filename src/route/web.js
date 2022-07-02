@@ -6,6 +6,8 @@ let initWebRoutes = (app) => {
     
     router.get("/",HomeController.getHomePage);
     router.get("/kieutrang",HomeController.getAboutPage )
+    router.get("/CRUD",HomeController.getCRUD )
+    router.post("/post-crud",HomeController.postCRUD )
     //rest api
     //xoá: delete
     //update: put
